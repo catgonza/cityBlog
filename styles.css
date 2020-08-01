@@ -20,6 +20,11 @@ button {
   margin: 10px;
 }
 
+body.dark {
+  background-color: black;
+  color: white;
+}
+
 footer {
   text-align: center;
   padding: 20px;

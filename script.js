@@ -23,3 +23,8 @@ nextButton.addEventListener("click", function () {
   currentImageIndex = (currentImageIndex + 1) % images.length;
   img.src = images[currentImageIndex];
 });
+
+const darkLightButton = document.querySelector("#dark-light-button");
+darkLightButton.addEventListener("click", function () {
+  document.body.classList.toggle("dark");
+});

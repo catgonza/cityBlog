@@ -3,13 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My favourite city</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
     <style>
       body {
         text-align: center;
       }
     </style>
     <link rel="stylesheet" href="styles.css" />
+    <title>My favourite city</title>
     <style>
       body {
         background-image: url(beach-background.jpg);
@@ -18,21 +25,26 @@
   </head>
 
   <body>
-    <h1>Providencia Island - Colombia</h1>
-    <p>
-      Providencia is a laid-back Caribbean Island, super undeveloped and not
-      really Colombia at all.<br />The majority of the people are descended from
-      slaves the British brought there centuries ago, and<br />sometimes you
-      wonder how much has changed since then. There is one road around the
-      island, with<br />very few side roads. It is circled by pristine reef,
-      that shines like a blue jewel when you fly over<br />it upon arrival. In
-      the center, are lush green mountains you can take a short hike up. If you
-      just want<br />to relax, then you have found the right place. But there is
-      also plenty to do here.
-    </p>
-    <button id="prev-button">Prev</button>
-    <button id="next-button">Next</button>
-    <img src="./providencia1.jpg" class="img-fluid" />
+    <div
+      class="container container-fluid container-lg-1 container-md-3 container-sm-6 p-3 my-3 bg-grey"
+    >
+      <h1 class="text-centre my-3">Providencia Island - Colombia</h1>
+      <p>
+        Providencia is a laid-back Caribbean Island, super undeveloped and not
+        really Colombia at all.<br />The majority of the people are descended
+        from slaves the British brought there centuries ago, and<br />sometimes
+        you wonder how much has changed since then. There is one road around the
+        island, with<br />very few side roads. It is circled by pristine reef,
+        that shines like a blue jewel when you fly over<br />it upon arrival. In
+        the center, are lush green mountains you can take a short hike up. If
+        you just want<br />to relax, then you have found the right place. But
+        there is also plenty to do here.
+      </p>
+      <button id="prev-button">Prev</button>
+      <button id="next-button">Next</button>
+      <!--button id="dark-light-button">Dark/Light</button>-->
+      <img src="./providencia1.jpg" class="img-fluid" />
+    </div>
 
     <footer>Made with &#10084; by catgonza - all photos are mine</footer>
 
